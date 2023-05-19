@@ -1,0 +1,71 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.topDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchDiv{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.textInput{
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid black;
+}
+
+.searchDiv >  button{
+    width: 70px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(163, 114, 22);
+    border-radius: 0 20px 20px 0;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+}
+
+.functionalityDiv{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 14px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.selectBox{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+}
+
+.allProducts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
